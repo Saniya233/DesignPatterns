@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afc081d4-3d13-47bb-8228-bc597a6d43c8" name="Changes" comment="feat: Strategy Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/observer/CurrentConditionsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/observer/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/observer/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/observer/WeatherStation.java" afterDir="false" />
+    <list default="true" id="afc081d4-3d13-47bb-8228-bc597a6d43c8" name="Changes" comment="feat: Observer Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/decorator/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/decorator/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/decorator/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/decorator/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/decorator/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/decorator/StarbuzzCoffee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WeatherStation">
+  <component name="RunManager" selected="Application.StarbuzzCoffee">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.saniya.Main" />
       <module name="DesignPatterns" />
@@ -86,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StarbuzzCoffee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.saniya.decorator.StarbuzzCoffee" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.saniya.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WeatherStation" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.saniya.observer.WeatherStation" />
       <module name="DesignPatterns" />
@@ -101,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StarbuzzCoffee" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -118,7 +132,7 @@
       <workItem from="1673121954008" duration="16000" />
       <workItem from="1673121974696" duration="612000" />
       <workItem from="1673173782501" duration="89000" />
-      <workItem from="1673173900276" duration="5933000" />
+      <workItem from="1673173900276" duration="12343000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Strategy Pattern">
       <created>1673186881273</created>
@@ -127,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673186881273</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Observer Pattern">
+      <created>1673193226679</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673193226679</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,10 +156,27 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Strategy Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Strategy Pattern" />
+    <MESSAGE value="feat: Observer Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Observer Pattern" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/me/saniya/decorator/StarbuzzCoffee.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/me/saniya/decorator/Mocha.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
