@@ -4,31 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afc081d4-3d13-47bb-8228-bc597a6d43c8" name="Changes" comment="feat: Decorator Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/CheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/ClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/Clams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/Dough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/FreshClams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/Garlic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/MarinaraSauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/Mushroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/NYPizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/NYPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/NYStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/Onion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/Pepperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/PizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/PizzaTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/Redpepper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/ReggianoCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/Sauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/SlicedPepperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/ThinCrustDough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/factory/Veggies.java" afterDir="false" />
+    <list default="true" id="afc081d4-3d13-47bb-8228-bc597a6d43c8" name="Changes" comment="feat: Factory Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/saniya/singleton/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +18,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -165,7 +143,7 @@
       <workItem from="1673121974696" duration="612000" />
       <workItem from="1673173782501" duration="89000" />
       <workItem from="1673173900276" duration="13460000" />
-      <workItem from="1674055761059" duration="15039000" />
+      <workItem from="1674055761059" duration="19673000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Strategy Pattern">
       <created>1673186881273</created>
@@ -188,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673285902534</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: Factory Pattern">
+      <created>1674151160142</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674151160142</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +183,8 @@
     <MESSAGE value="feat: Strategy Pattern" />
     <MESSAGE value="feat: Observer Pattern" />
     <MESSAGE value="feat: Decorator Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Decorator Pattern" />
+    <MESSAGE value="feat: Factory Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Factory Pattern" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
